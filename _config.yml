@@ -2,6 +2,7 @@
 # For more see: http://jekyllrb.com/docs/permalinks/
 permalink: /:categories/:title.html
 
+highlighter: rouge
 exclude: [".rbenv-version", "README.md", "Rakefile", "CNAME"]
 auto: true
 pygments: true
