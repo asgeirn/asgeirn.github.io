@@ -1,12 +1,12 @@
 # This is the default format. 
 # For more see: http://jekyllrb.com/docs/permalinks/
 permalink: /:categories/:title.html
-
 highlighter: rouge
 exclude: [".rbenv-version", "README.md", "Rakefile", "CNAME"]
 auto: true
 pygments: true
 gems: ["jekyll-sitemap"]
+theme: jekyll-theme-hacker
 
 topbar:
   - 
@@ -21,10 +21,10 @@ topbar:
 #
 title : JB
 author :
-  name : Jade Dominguez
-  email : plusjade@gmail.com
-  github : plusjade
-  twitter : plusjade
+  name : Asgeir Storesund Nilsen
+  email : asgeir@twingine.no
+  github : asgeirn
+  twitter : asgeirn
   feedburner : nil
 
 # The production_url is only used when full-domain names are needed
@@ -35,7 +35,7 @@ author :
 # Else if you are pushing to username.github.com, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://jekyllbootstrap.com
+production_url : https://asgeirn.github.io
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -113,4 +113,3 @@ JB :
   # and include your custom code. Your custom file must be defined at:
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
-theme: jekyll-theme-hacker
